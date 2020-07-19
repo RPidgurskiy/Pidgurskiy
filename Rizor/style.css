@@ -6,7 +6,6 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
 }
 
 a {
@@ -496,7 +495,6 @@ a {
 @media screen and (max-width:768px) {
   .main_img {
     height: 330px;
-    left: 350px;
   }
   .main {
     margin-bottom: 30px;
@@ -565,6 +563,7 @@ a {
   }
   .main_img {
     height: 227px;
+    right: 80px;
   }
   .play_img {
     margin-left: 85px;
@@ -682,5 +681,8 @@ a {
   height: 196px;
   margin-top: 113px;
   right: -44px;
+}
+.overlay{
+  display: none;
 }
 }
