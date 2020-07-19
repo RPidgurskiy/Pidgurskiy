@@ -6,6 +6,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 a {
@@ -431,15 +432,15 @@ a {
   font-size: 60px;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-width: 450px) {
   .overlay {
-    overflow-y: auto;
+    overflow-x: hidden;
   }
   .overlay a {
     font-size: 20px
   }
   .overlay .closebtn {
-    font-size: 40px;
+    font-size: 20px;
     top: 15px;
     right: 35px;
   }
@@ -495,6 +496,7 @@ a {
 @media screen and (max-width:768px) {
   .main_img {
     height: 330px;
+    left: 350px;
   }
   .main {
     margin-bottom: 30px;
@@ -553,7 +555,7 @@ a {
   }
 }
 
-@media screen and (max-width:425px) {
+@media (max-width:455px) {
   .logo {
     margin-left: 10px;
   }
