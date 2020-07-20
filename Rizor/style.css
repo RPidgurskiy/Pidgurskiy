@@ -14,8 +14,8 @@ a {
 
 .colorred_bg {
   background-color: #457bb9;
-  transition: all 0.8s ease;
-  transition-delay: .11s;
+  /* transition: all 0.8s ease; */
+  /* transition-delay: .11s; */
 }
 
 /* main */
@@ -25,7 +25,6 @@ a {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  z-index: 9;
 }
 
 .open_nav {
@@ -78,7 +77,6 @@ a {
 .links::before {
   content: '';
   position: absolute;
-  z-index: -1;
   top: 0;
   bottom: 0;
   left: -0.25em;
@@ -125,26 +123,24 @@ a {
   right: 0;
   opacity: 0.9;
   margin-bottom: 100px;
-  transition: .4s linear;
 }
 
 .main_img:hover {
   opacity: 0.7;
-  transition: .4s linear;
   animation-delay: 1s;
 }
 
 .play_img {
   margin-left: 410px;
   position: relative;
-  transition: 2s ease;
+  /* transition: 2s ease; */
 }
 
 .line_img {
   margin-left: 120px;
   margin-top: 20px;
-  transition: .8s linear;
-  transition-delay: .5s;
+  /* transition: .8s linear;
+  transition-delay: .5s; */
 }
 
 .line_img:hover {
@@ -182,7 +178,6 @@ a {
   left: 330px;
   bottom: 350px;
   position: absolute;
-  z-index: 1;
 }
 
 .rizor_bg {
@@ -331,7 +326,7 @@ a {
 .about_section {
   background: url(img/footer.png), no-repeat;
   background-size: cover;
-  position: relative;
+  /* position: relative; */
 }
 
 .about {
@@ -378,7 +373,7 @@ a {
 .about_btn:hover {
   background-color: #abf830;
   transition: 0.9s linear;
-  padding: 15px 50px 15px 50px;
+  /* padding: 15px 50px 15px 50px; */
 }
 
 /* footer */
@@ -398,8 +393,8 @@ a {
   left: 0;
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
-  overflow-y: hidden;
-  transition: 0.5s;
+  overflow-x: hidden;
+  transition: 0.5s linear;
 }
 
 .overlay-content {
@@ -433,7 +428,7 @@ a {
 
 @media screen and (max-width: 450px) {
   .overlay {
-    overflow-x: hidden;
+    overflow-y: scroll;
   }
   .overlay a {
     font-size: 20px
@@ -553,17 +548,18 @@ a {
   }
 }
 
-@media (max-width:455px) {
+@media (max-width:595px) {
   .logo {
+    margin-right: 110px;
     margin-left: 10px;
   }
   .btn_bg {
-    margin-right: 48px;
+    margin-right: 10px;
     text-align: end;
   }
   .main_img {
     height: 227px;
-    right: 80px;
+    right: 0;
   }
   .play_img {
     margin-left: 85px;
@@ -585,13 +581,12 @@ a {
   .line_img {
     margin-left: 140px;
   }
-  .design_section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-  }
   .design_hoverboard {
     height: 170px;
+    top: 180px;
+  }
+  .advantages {
+    margin-left: -160px;
   }
   .advant_title {
     font-size: 20px;
@@ -607,30 +602,32 @@ a {
   }
   .design_play {
     left: 48px;
-    top: 245px;
+    top: 430px;
   }
   .rizor_bg {
     height: 300px;
     margin-left: 50px;
     margin-top: 240px;
   }
-  .design_section {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
-  }
   .color {
     margin-bottom: 20px;
     font-size: 30px;
+  }
+  .colors {
+    align-self: flex-end;
+    margin: 0;
   }
   .model {
     font-size: 14px;
     margin-right: 120px;
   }
   .colors_board {
-    right: 137px;
-    height: 183px;
+    right: 30px;
+    height: 200px;
+  }
+  .modes_section {
+    flex-direction: column;
+    margin-bottom: 10px;
   }
   .modes_title {
     margin-bottom: 20px;
@@ -653,36 +650,125 @@ a {
   .modes_board {
     height: 150px;
   }
+  .modes {
+    margin: auto;
+    margin-top: 100px;
+  }
+  .modes_img {
+    margin-top: 10px;
+  }
   .modes_play {
     right: 30px;
     display: flex;
     bottom: 120px;
   }
   .modes_play_text {
-    margin-left: -100px;
-    bottom: 150px;
-  }
-  .modes_section {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+    margin-left: -88px;
+    bottom: 170px;
   }
   .about {
-  display: block;
+    display: flex;
+    flex-direction: column;
   }
   .about_info {
-    margin: 0px 1px 40px 78px;
+    margin: 30px;
   }
   .about_title {
     font-size: 18px;
     margin-bottom: 25px;
-  } 
-.about_overlay_img {
-  height: 196px;
-  margin-top: 113px;
-  right: -44px;
+  }
+  .about_overlay_img {
+    height: 260px;
+    margin-top: 81px;
+  }
+  .rizor_bg {
+    height: 290px;
+    margin-left: 25px;
+    margin-top: 240px;
+  }
 }
-.overlay{
-  display: none;
+
+@media (max-width:375px) {
+  .main_title {
+    font-size: 15px;
+    margin-left: 13px;
+  }
+  .main_img {
+    height: 190px;
+  }
+  .advantages {
+    margin: 10px;
+  }
+  .design_hoverboard {
+    top: 0;
+    height: 200px;
+  }
+  .design_play {
+    top: 265px;
+    left: 60px;
+  }
+  .design_section {
+    display: block;
+    top: -120px;
+  }
+  .colors_board {
+    right: 133px;
+    height: 150px;
+  }
+  .colors {
+    margin: 50px;
+  }
+  .about_overlay_img {
+    height: 235px;
+    margin-top: 81px;
+  }
+  .modes {
+    margin: 20px;
+  }
+  .about_overlay_img {
+    height: 225px;
+  }
 }
+
+@media (max-width:320px) {
+  .rizor_bg {
+    height: 240px;
+    margin-left: 10px;
+  }
+  .about_overlay_img {
+    height: 200px;
+  }
+  .colors_board {
+    right: 91px;
+    height: 175px;
+  }
+  .play_text {
+    left: 25px;
+    top: 150px;
+  }
+  .btn_bg {
+    margin-right: 210px;
+  }
+  .main_img {
+    height: 150px;
+  }
+  .main_title {
+    font-size: 11px;
+    margin-left: 51px;
+  }
+  .speed_options {
+    margin-right: 40px;
+  }
+  .modes_play_text {
+    margin-left: -75px;
+    bottom: 121px;
+  }
+  .modes_board {
+    height: 125px;
+  }
+  .modes_play {
+    right: 20px;
+    height: 50px;
+    bottom: 85px;
+  }
 }
