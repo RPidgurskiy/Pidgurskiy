@@ -81,7 +81,7 @@ a {
   bottom: 0;
   left: -0.25em;
   right: -0.25em;
-  background-color: hsla(170, 97%, 59%, 0.75);
+  background-color: #438b7f4b;
   transform-origin: center right;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out;
@@ -93,7 +93,6 @@ a {
 }
 
 .links:hover {
-  color: #ffffff;
   transition: 0.5s linear;
 }
 
@@ -159,7 +158,7 @@ a {
 .play_text {
   transform: rotate(-90deg);
   position: absolute;
-  top: 120px;
+  top: 20px;
   left: 340px;
 }
 
@@ -505,6 +504,10 @@ a {
     left: 210px;
     top: 20px;
   }
+  .design_play {
+    left: 115px;
+    bottom: 205px;
+  }
   .play_img {
     margin-left: 270px;
   }
@@ -749,7 +752,7 @@ a {
   .play_text {
     left: 25px;
     top: 15px;
-  }
+0}
   .btn_bg {
     margin-right: 210px;
   }
