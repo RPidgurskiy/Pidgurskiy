@@ -9,6 +9,8 @@
 	<title>Rizor</title>
 	<link href="style.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -28,12 +30,12 @@
 					<a href="#">Для кого</a>
 				</div>
 			</div>
-			<button class="btn_bg" type="button">~</button>
+			<button class="btn_bg">~</button>
 			<span class="open_nav" onclick="openNav()">=</span>
 
 		</div>
 	</header>
-	<section class="main">
+	<section class="main" data-aos="fade-up" data-aos-duration="3000" data-aos-mirror="true">
 		<img src="img/main1.png" class="main_img" alt="">
 		<img src="img/play.png" class="play_img" alt=""><span>
 			<h5 class="play_text">смотреть <br>видео</h5>
@@ -48,7 +50,7 @@
 	<!-- design_section -->
 
 
-	<section class="design_section">
+	<section class="design_section" data-aos="zoom-in" data-aos-duration="2000" data-aos-mirror="true" data-aos-offset="200">
 		<img src="img/main2.png" class="design_hoverboard" alt="">
 		<img src="img/play.png" class="design_play" alt="">
 		<img src="img/rizor_bg.png" class="rizor_bg" alt="">
@@ -81,7 +83,7 @@
 
 
 
-	<section class="modes_section">
+	<section class="modes_section" data-aos="zoom-in" data-aos-duration="3000" data-aos-mirror="true">
 
 		<div class="modes">
 			<h2 class="modes_title">Режимы</h2>
@@ -148,6 +150,7 @@
 		<p>© All rights reserved, 2017</p>
 	</footer>
 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="index.js"></script>
 </body>
 
