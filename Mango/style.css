@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 1px solid red; */
 }
 
 html {
@@ -128,9 +129,6 @@ a.nav_popup {
     margin-right: 0;
     text-align: right;
 }
-
-
-
 
 /* slider */
 
@@ -268,8 +266,6 @@ a.nav_popup {
     transition: .1s linear;
 }
 
-
-
 /* section2 */
 
 .block_2 {
@@ -371,8 +367,6 @@ a.nav_popup {
     bottom: 110px;
     transition: .3s linear;
 }
-
-
 
 /* about */
 
@@ -493,121 +487,117 @@ input {
     background: transparent;
 }
 
-
-
-@media screen and (max-width:1024px){
-    .openbtn{
+@media screen and (max-width:1024px) {
+    .openbtn {
         margin-right: 40px;
     }
-    .header_links{
+    .header_links {
         margin-right: 180px;
     }
-    .sideNav{
+    .sideNav {
         width: 250px;
     }
     .slider_title {
         font-size: 85px;
     }
-    .development{
+    .development {
         margin-right: 0;
     }
-    .graip_right_top{
+    .graip_right_top {
         top: 140px;
     }
-    .ellipse_img{
+    .ellipse_img {
         margin-left: 210px;
     }
-    .leaf_bottom{
+    .leaf_bottom {
         left: 170px;
     }
-    .ellipse_num{
+    .ellipse_num {
         left: 375px;
     }
-    .block2_text{
+    .block2_text {
         left: 220px;
     }
-    .minigraip_left{
+    .minigraip_left {
         left: 140px;
     }
-    .minigraip_rigth{
+    .minigraip_rigth {
         bottom: 10px;
-
     }
-    .about_text{
+    .about_text {
         font-size: 14px;
     }
-    .copyright{
+    .copyright {
         margin-right: 20px;
         margin-left: 5px;
     }
-    .development{
+    .development {
         margin-right: 5px;
         margin-left: 1px;
     }
-    input{
+    input {
         margin-right: 15px;
     }
-    
 }
-
-
 
 /* 768px */
 
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .header_links {
         display: none;
     }
-    .slider_title{
+    .slider_title {
         font-size: 50px;
         margin-left: 350px;
     }
-    .slider_title{
+    .slider_title {
         top: 500px;
     }
-    .graip_right{
+    .graip_right {
         right: 50px;
     }
-    .graip_left{
+    .graip_left {
         width: 150px;
         left: -30px;
     }
-    .graip_right_top{
+    .graip_right_top {
         width: 200px;
     }
-    .slides-numbers{
+    .slides-numbers {
         bottom: -170px;
     }
-    .btn-next{
+    .btn-next {
         bottom: -170px;
     }
-    .btn-prev{
+    .btn-prev {
         bottom: -170px;
     }
-    .inputs{
+    .inputs {
         display: inline-block;
         margin-top: 40px;
     }
-    input{
+    input {
         margin-top: 20px;
     }
-    .copyright{
+    .copyright {
         margin-bottom: 20px;
         text-align: left;
     }
-    .development{
+    .development {
         margin-top: 20px;
     }
-    .ellipse_img{
+    .ellipse_img {
         width: 400px;
     }
-    .graip_right2{
+    .graip_right2 {
         height: 400px;
+        z-index: 6;
     }
-    .graip_left2{
+    .graip_left2 {
         height: 400px;
+        z-index: 6;
     }
-    .leaf_bottom{
+    .leaf_bottom {
         left: 135px;
         width: 170px;
     }
@@ -616,7 +606,7 @@ input {
         width: 150px;
         bottom: 40px;
     }
-    .ellipse_num{
+    .ellipse_num {
         left: 275px;
         bottom: 90px;
     }
@@ -634,45 +624,46 @@ input {
     .glass_right {
         height: 520px;
     }
+    #navbar {
+        padding: 0;
+    }
 }
 
+/* 555 */
 
-/* 425 */
-
-@media (max-width: 555px) {
-    .openbtn{
+@media (max-width: 595px) {
+    .openbtn {
         margin-right: 20px;
     }
-    
-    .graip_top{
+    .graip_top {
         display: none;
     }
-    .graip_right_top{
+    .graip_right_top {
         display: none;
     }
-    .graip_main{
+    .graip_main {
         height: 300px;
         margin-left: 500px;
     }
-    .bottle{
+    .bottle {
         height: 300px;
         margin-left: 550px;
     }
-    .slider_title{
+    .slider_title {
         font-size: 24px;
         margin-left: 470px;
     }
-    .slider_text{
-        margin-left: 450px;
+    .slider_text {
+        margin: 0 150px 0 450px;
         text-align: center;
         top: 550px;
         width: 300px;
     }
-    .slider_img{
+    .slider_img {
         padding: 0;
     }
-    .slides-numbers{
-        bottom: -250px;
+    .slides-numbers {
+        bottom: -210px;
         margin-left: 150px;
     }
     .ellipse_img {
@@ -688,19 +679,18 @@ input {
         border-radius: 0;
         padding: 0;
     }
-    .sideNav{
-        width: 120px;
-    }
-    .graip_left2{
+    .graip_left2 {
         height: 250px;
+        z-index: 5;
     }
-    .graip_rigth2{
+    .graip_rigth2 {
         height: 250px;
+        z-index: 5;
     }
-    .graip_left{
+    .graip_left {
         margin-top: 250px;
     }
-    .block2_text{
+    .block2_text {
         left: 20px;
         margin-top: 540px;
     }
@@ -727,15 +717,56 @@ input {
     .glass_right {
         height: 400px;
     }
-    .glass_left{
+    .glass_left {
         height: 400px;
     }
     .inputs {
         display: inline-block;
         margin-top: 10px;
     }
-    .footer_info{
+    .sendmail {
+        margin-top: 10px;
+    }
+    .footer_info {
         height: 280px;
     }
+}
 
+@media (max-width:320px){
+    .about_leaf{
+        height: 250px;
+    }
+    .about_grape {
+        margin-top: 125px;
+    }
+    .about_text {
+        margin: 20px;
+    }
+    .sendmail {
+        margin-top: 20px;
+    }
+    .copyright {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer_info {
+        height: 300px;
+    }
+    .btn_learn {
+        padding: 20px;
+    }
+    .block2_text {
+        left: 20px;
+        right: 20px;
+    }
+    .slider_title {
+        font-size: 24px;
+        margin-left: 490px;
+    }
+    .slider_text {
+        margin: 5px 199px 0 470px;
+    }
+    .graip_right2{
+        z-index: 6;
+    }
 }
