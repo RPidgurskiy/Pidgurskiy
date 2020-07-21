@@ -503,6 +503,7 @@ a {
   }
   .play_text {
     left: 210px;
+    top: 20px;
   }
   .play_img {
     margin-left: 270px;
@@ -625,7 +626,7 @@ a {
     margin-right: 120px;
   }
   .colors_board {
-    right: 30px;
+    right: 65px;
     height: 200px;
   }
   .modes_section {
@@ -747,7 +748,7 @@ a {
   }
   .play_text {
     left: 25px;
-    top: 150px;
+    top: 15px;
   }
   .btn_bg {
     margin-right: 210px;
