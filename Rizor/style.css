@@ -172,14 +172,14 @@ a {
 }
 
 .design_hoverboard {
-  height: 650px;
+  height: 620px;
   margin-top: 200px;
   position: relative;
 }
 
 .design_play {
-  left: 330px;
-  bottom: 350px;
+  left: 250px;
+  bottom: 270px;
   position: absolute;
 }
 
