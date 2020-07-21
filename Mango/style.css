@@ -103,7 +103,7 @@ a.nav_popup {
 
 .openbtn {
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 50px;
     top: -5px;
     cursor: pointer;
     background-color: transparent;
@@ -494,9 +494,6 @@ input {
     .header_links {
         margin-right: 180px;
     }
-    .sideNav {
-        width: 250px;
-    }
     .slider_title {
         font-size: 85px;
     }
@@ -633,7 +630,7 @@ input {
 
 @media (max-width: 595px) {
     .openbtn {
-        margin-right: 20px;
+        margin-right: 35px;
     }
     .graip_top {
         display: none;
