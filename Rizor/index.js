@@ -4,11 +4,11 @@ let changeBg=document.querySelector(".btn_bg");
 document.body.style.background="white"; 
 changeBg.addEventListener("click", function(){
 if (document.body.style.background=="white"){
-    document.body.style.background="lightcyan";
+    document.body.style.background="steelblue";
     document.body.style.transition="1s";
-    document.body.style.color="darkblue";
+    document.body.style.color="lavender";
 
-}else if(document.body.style.background=="lightcyan"){
+}else if(document.body.style.background=="steelblue"){
     document.body.style.background="white";
     document.body.style.color="";
     document.body.style.transition="1s";
