@@ -14,8 +14,8 @@ a {
 
 .colorred_bg {
   background-color: #457bb9;
-  /* transition: all 0.8s ease; */
-  /* transition-delay: .11s; */
+  transition: all 0.8s ease;
+  transition-delay: .11s;
 }
 
 /* main */
@@ -45,8 +45,8 @@ a {
 
 .logo {
   margin-right: 500px;
+  color: lightgreen;
 }
-
 .btn_bg {
   background-color: rgba(5, 255, 201, 0.562);
   padding: 10px;
@@ -94,7 +94,7 @@ a {
 
 .links:hover {
   color: #ffffff;
-  transition: 0.3s linear;
+  transition: 0.5s linear;
 }
 
 .main {
@@ -123,24 +123,27 @@ a {
   right: 0;
   opacity: 0.9;
   margin-bottom: 100px;
+  transition: .5s linear;
+
 }
 
 .main_img:hover {
   opacity: 0.7;
+  transition: .5s linear;
   animation-delay: 1s;
 }
 
 .play_img {
   margin-left: 410px;
   position: relative;
-  /* transition: 2s ease; */
+  transition: 2s ease;
 }
 
 .line_img {
   margin-left: 120px;
   margin-top: 20px;
-  /* transition: .8s linear;
-  transition-delay: .5s; */
+  transition: .8s linear;
+  transition-delay: .5s;
 }
 
 .line_img:hover {
@@ -184,7 +187,7 @@ a {
   position: absolute;
   z-index: -2;
   opacity: 0.1;
-  margin-left: 50px;
+  right: 80px;
   margin-top: 240px;
 }
 
@@ -373,7 +376,7 @@ a {
 .about_btn:hover {
   background-color: #abf830;
   transition: 0.9s linear;
-  /* padding: 15px 50px 15px 50px; */
+  padding: 15px 50px 15px 50px;
 }
 
 /* footer */

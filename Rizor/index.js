@@ -1,21 +1,27 @@
-// function myFunction() {
-//     let bg = document.querySelector('btn_bg');
-//     if (bg.style.backgroundColor === 'red') {
-//         bg.style.backgroundColor = 'blue';
-//     } else {
-//         bg.style.backgroundColor = 'red';
-//     }
-// }
 
 
-let changeBg = document.querySelector('.btn_bg');
+let changeBg=document.querySelector(".btn_bg");
+  
+    document.body.style.background="white"; 
+    changeBg.addEventListener("click", function(){
+    if (document.body.style.background=="white"){
+        document.body.style.background="lightgreen";
+        document.body.style.transition="1s";
+    }else if(document.body.style.background=="lightgreen"){
+        document.body.style.background="white";
+        document.body.style.transition="1s";
+    }
+    });
 
 
-changeBg.addEventListener("click", function() {
+// let changeBg = document.querySelector('.btn_bg');
 
-    document.body.classList.toggle("colorred_bg");
-    bg.style.backgroundColor = '';
-});
+
+// changeBg.addEventListener("click", function() {
+
+//     document.body.classList.toggle("colorred_bg");
+//     bg.style.backgroundColor = '';
+// });
 
 
 function openNav() {
