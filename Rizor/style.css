@@ -47,6 +47,7 @@ a {
   margin-right: 500px;
   color: lightgreen;
 }
+
 .btn_bg {
   background-color: rgba(5, 255, 201, 0.562);
   padding: 10px;
@@ -64,7 +65,7 @@ a {
 .links {
   font-size: 18px;
   text-decoration: none;
-  color: #000;
+  /* color: #000; */
   margin-right: 95px;
   text-align: center;
   transition: 0.3s linear;
@@ -123,7 +124,6 @@ a {
   opacity: 0.9;
   margin-bottom: 100px;
   transition: .5s linear;
-
 }
 
 .main_img:hover {
@@ -460,9 +460,6 @@ a {
   .links {
     display: none;
   }
-  .about {
-    /* display: block; */
-  }
   .about_overlay_img {
     height: 250px;
     right: 30px;
@@ -752,7 +749,7 @@ a {
   .play_text {
     left: 25px;
     top: 15px;
-0}
+  }
   .btn_bg {
     margin-right: 210px;
   }

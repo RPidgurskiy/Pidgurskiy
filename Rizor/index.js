@@ -6,8 +6,11 @@ changeBg.addEventListener("click", function(){
 if (document.body.style.background=="white"){
     document.body.style.background="lightgreen";
     document.body.style.transition="1s";
+    document.body.style.color="white";
+
 }else if(document.body.style.background=="lightgreen"){
     document.body.style.background="white";
+    document.body.style.color="";
     document.body.style.transition="1s";
 }
 });
