@@ -65,7 +65,7 @@ a {
 .links {
   font-size: 18px;
   text-decoration: none;
-  /* color: #000; */
+  color: #000;
   margin-right: 95px;
   text-align: center;
   transition: 0.3s linear;
