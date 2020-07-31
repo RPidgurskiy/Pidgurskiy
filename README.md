@@ -1,10 +1,10 @@
-# Pidgurskiy
+# Pidgurskiy gitHub
 Websites: {
- https://rpidgurskiy.github.io/Pidgurskiy/Mango/
- https://rpidgurskiy.github.io/Pidgurskiy/Rizor/
- https://mechta-tour.com/
- https://www.dnipro-partner.com.ua/
- https://legal-help35.ru/
+ 1. https://rpidgurskiy.github.io/Pidgurskiy/Mango/
+ 2. https://rpidgurskiy.github.io/Pidgurskiy/Rizor/
+ 3. https://mechta-tour.com/
+ 4. https://www.dnipro-partner.com.ua/
+ 5. https://legal-help35.ru/
 } 
 
 I’m a Front-end developer with 1.5 years experience and I’m interesting in to work in your company and want to have more practice with JS and React js.
