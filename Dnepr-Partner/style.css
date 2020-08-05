@@ -58,6 +58,7 @@ button:hover::before {
 
 .main_li {
     list-style-image: url(/assets/yes.png);
+    margin-top: 10px;
 }
 
 .selector-for-some-widget {
