@@ -160,7 +160,7 @@ button:hover::before {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin: 0 0 0 5rem;
+    margin: 1rem 0 0 5rem;
 }
 
 .middle_vehicles_img {
