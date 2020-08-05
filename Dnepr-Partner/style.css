@@ -129,9 +129,6 @@ button:hover::before {
     transition: .3s;
 }
 
-.work_time {
-    font-size: 14px;
-}
 
 .advice:hover {
     color: rgb(213, 213, 221)!important;
@@ -155,15 +152,17 @@ button:hover::before {
 
 .main_add {
     margin-left: 60px;
-    margin-top: 20px;
+    top: 20px;
     max-width: 600px;
 }
+
 .top_back_img {
     position: absolute;
     display: flex;
     flex-direction: column;
     margin: 0 0 0 5rem;
 }
+
 .middle_vehicles_img {
     display: flex;
     flex-direction: column-reverse;
@@ -179,34 +178,17 @@ button:hover::before {
     right: 0;
     top: 100px;
 }
+
 .prod_img {
     max-width: 400px;
     max-height: 300px;
 }
+
 .vehicles_img {
     max-width: 320px;
     margin: -10px 0;
     margin-right: 2rem;
 }
-
-/* .main_back6 {
-    left: 85px;
-    background-size: contain;
-    display: block;
-    position: relative;
-    top: 485px;
-    height: 200px;
-}
-
-.main_back7 {
-    left: 85px;
-    background-size: contain;
-    display: block;
-    position: absolute;
-    top: 335px;
-    width: 478px;
-    height: 150px;
-} */
 
 .main_img {
     background-repeat: no-repeat;
@@ -338,14 +320,10 @@ button:hover::before {
     padding-top: 10px;
 }
 
-
-
 footer {
     bottom: 0;
     width: 100%;
 }
-
-
 
 @media (max-width: 1260px) {
     .middle_vehicles_img {
@@ -356,6 +334,7 @@ footer {
         font-size: 0;
     }
 }
+
 @media (max-width: 1060px) {
     .middle_vehicles_img {
         right: 0rem;
@@ -385,6 +364,7 @@ footer {
         top: 25rem;
     }
 }
+
 @media (max-width: 650px) {
     .vehicles_img {
         max-width: 210px;
